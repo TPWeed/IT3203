@@ -73,14 +73,12 @@ h2 {
     margin-right: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-height: 200px;
 } /*float left and curver borders of imgs*/
 .fright {
     float: right;
     margin-left: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-    max-height: 200px;
 }/*float right and curver borders of imgs*/
 .sidebar {
     grid-column: 1 / 2;
