@@ -1,12 +1,21 @@
+/*Name Tags*/
 html{
     background-color: #e6e6e6;
     height: 100%;
 } /* for background color*/
+h2 {
+    text-align: center;
+} /*content in mainsection is justified*/
+/*ID Tags*/
 #intextpic {
     max-height: 200px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px grey;
 }
+#home {
+    padding-right: 210px;
+}
+/*Class Tags*/
 .container {
     font-family:Arial, Helvetica, sans-serif;
     display: grid;
@@ -19,9 +28,6 @@ html{
     box-shadow: 10px 5px 5px grey;
     position: relative;
 }
-h2 {
-    text-align: center;
-} /*content in mainsection is justified*/
 .container div {
     background: #d1dfe4;
     color: rgb(41, 41, 46);
@@ -39,9 +45,6 @@ h2 {
     padding: 0;
     margin-top: 0;
     border-right: thick solid rgb(41, 41, 46);
-}
-#home {
-    padding-right: 210px;
 }
 .navbar ul{
     list-style-type: none;
