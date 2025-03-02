@@ -46,16 +46,44 @@ html{
 .navbar ul{
     list-style-type: none;
 }
-.navbar button:hover{
+.navbar a{
+    color: rgb(41, 41, 46);
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
+    padding: 15px 10px;
+}
+.navbar a:hover{
     background-color: rgb(161, 161, 185);
     padding: 25px;
 }
+
 .main {
     grid-column: 2 / 6;
     grid-row: 2 / 4;
     padding: 30px;
     padding-left: 70px;
     padding-right: 70px;
+}
+.mainpagepic {
+    max-height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+.fleft {
+    float: left;
+    margin-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fright {
+    float: right;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 .sidebar {
     grid-column: 1 / 2;
