@@ -40,6 +40,9 @@ h2 {
     margin-top: 0;
     border-right: thick solid rgb(41, 41, 46);
 }
+#home {
+    padding-right: 210px;
+}
 .navbar ul{
     list-style-type: none;
 } /*remove bullets*/
@@ -54,11 +57,10 @@ h2 {
 }
 .navbar a:hover{
     background-color: rgb(161, 161, 185);
-    padding: 25px;
+    padding-right: 140px;
 } /*make nav choice enlarge when hover*/
 .current{
     background-color: rgb(161, 161, 185);
-    padding: 25px;
 } /*keep current page highlighted*/
 .main {
     grid-column: 2 / 6;
@@ -73,6 +75,7 @@ h2 {
     margin-right: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
+
 } /*float left and curver borders of imgs*/
 .fright {
     float: right;
