@@ -1,22 +1,31 @@
 html{
-    background-color: #eeeeee;
+    background-color: #e6e6e6;
     height: 100%;
+} /* for background color*/
+#intextpic {
+    max-height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
 }
-.body {
+/*.body {
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
-}
+}*/
 .container {
     font-family:Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 200px 350px 1300px 100px;
+    grid-template-rows: 140px 360px 1300px 100px;
     max-width: 1500px;
     margin: 0 auto;
     text-align: center;
+    border-radius: 10px;
     box-shadow: 10px 5px 5px grey;
     position: relative;
 }
+h2 {
+    text-align: center;
+} /*content in mainsection is justified*/
 .container div {
     background: #d1dfe4;
     color: rgb(41, 41, 46);
@@ -25,6 +34,7 @@ html{
     grid-column: 1 / 6;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom: thick solid rgb(41, 41, 46);
 }
 .navbar {
     grid-column: 1 / 2;
@@ -33,9 +43,8 @@ html{
     padding: 0;
     margin-top: 0;
     border-right: thick solid rgb(41, 41, 46);
-    border-top: thick solid rgb(41, 41, 46);
 }
-.button {
+/*.button {
     background-color: #d1dfe4;
     border: none;
     color: rgb(41, 41, 46);
@@ -44,10 +53,10 @@ html{
     display: inline-block;
     font-size: 16px;
     text-align: left;
-}
+}*/
 .navbar ul{
     list-style-type: none;
-}
+} /*remove bullets*/
 .navbar a{
     color: rgb(41, 41, 46);
     text-decoration: none;
@@ -60,7 +69,12 @@ html{
 .navbar a:hover{
     background-color: rgb(161, 161, 185);
     padding: 25px;
-}
+} /*make nav choice enlarge when hover*/
+
+.current{
+    background-color: rgb(161, 161, 185);
+    padding: 25px;
+} /*keep current page highlighted*/
 
 .main {
     grid-column: 2 / 6;
@@ -68,25 +82,21 @@ html{
     padding: 30px;
     padding-left: 70px;
     padding-right: 70px;
+    text-align: justify;
 }
-.mainpagepic {
-    max-height: 200px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px grey;
-}
+
 .fleft {
     float: left;
     margin-right: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} /*float left and curver borders of imgs*/
 .fright {
     float: right;
     margin-left: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
-
-}
+}/*float right and curver borders of imgs*/
 .sidebar {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
@@ -98,4 +108,6 @@ html{
     grid-column: 1 / 6;
     grid-row: 4 / 5;
     border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: thick solid rgb(41, 41, 46);
 }
