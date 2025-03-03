@@ -7,11 +7,7 @@ h2 {
     text-align: center;
 } /*content in mainsection is justified*/
 /*ID Tags*/
-#intextpic {
-    max-height: 200px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px grey;
-}
+
 #home {
     padding-right: 210px;
 }
@@ -72,6 +68,11 @@ h2 {
     padding-left: 70px;
     padding-right: 70px;
     text-align: justify;
+}
+.intextpic {
+    max-height: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
 }
 .fleft {
     float: left;
